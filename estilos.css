@@ -1,0 +1,335 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'roboto mono',monospace;
+
+}
+
+/*body*/
+body{
+    background-color:white;
+    margin: 0%;
+    height: .100%;
+    width: 100%;
+    position: relative;
+    padding-bottom: 3rem;
+    min-width: 100vh;
+}
+
+
+/*header*/
+header{
+    background-color: black;
+    margin: 0px;
+    width: 100%;
+    height: 300px;
+    padding: 50px;
+}
+
+
+/*título*/
+h1 {
+    margin: 0px;
+    height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 100%;
+    padding: 55px;
+    color: white;
+    background-color: black;
+}
+
+nav{
+    margin: 0px;
+    background-color: black;
+    font-size: x-large;
+}
+
+.navbar-toogler{
+    width: auto;
+    height: auto;
+    background-color: black;
+    border: solid black;
+    filter: invert(1);
+    cursor: pointer;
+}
+
+nav ul li{
+    
+    padding: 0%;
+    text-decoration: none;
+}
+
+
+
+/*imágenes*/
+img {
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*grid-layout*/
+.grid-layout{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    background-color: black;
+    max-height: 100%;
+    text-align: center;
+    line-height: 150px;
+    width: 100%;
+    
+
+}
+
+
+/*párrafos*/
+p{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0.7rem 0.7rem;
+    font-size: 3em ;
+    text-align: justify;
+    margin: 50px;
+    padding: 30px;
+}
+
+
+/*flex-container*/
+.flex-container{
+    background-color: wheat;
+    display: flex;
+    padding: 30px;
+    flex-direction: row;
+    margin: 0% auto;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    border: solid black;
+
+}
+
+
+/*video*/
+video{
+    border: solid black;
+    background-color: wheat;
+}
+
+
+/*fotos-pelea*/
+.flex-fight{
+    display: flex;
+    padding: 0px;
+    flex-direction: row;
+    margin: 0% auto;
+    width: 95%;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+/*video-ganador*/
+.flex-winner{
+    display: flex;
+    padding: 0px;
+    flex-direction: row;
+    margin: 0% auto;
+    width: 95%;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+
+/*sub-menu*/
+h2{
+    margin: 40px;
+    padding: 70px;
+    text-align: center;
+    color: black;
+    padding: auto;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+/*contenido*/
+#flex-content{
+    padding: 90px;
+    display: flex;
+    margin: 50px;
+    justify-content: space-around;
+    
+}
+
+/*lleva-tu-gimnasio-al-limite*/
+h3{
+    margin: 30px;
+    padding: 60px;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+    flex-direction: row;
+}
+
+/*empecemos*/
+button{
+    width:100%;
+}
+
+/*ubicaciones*/
+.flex-ubicaciones{
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+/*footer*/
+footer{
+    background-color: black;
+    color: white;
+    margin: 0px;
+    text-align: center;
+    line-height: 40px;
+    padding: 1rem 0;
+    position: absolute;
+    width: 100%;
+    margin-top: 0%;
+}
+
+/*boton-inicio*/
+ul li{
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+/*#everlasthaedoboxing*/
+h4{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+/*somos-deporte*/
+h5{
+    color: white;
+    text-align: center;
+    margin: 20px;
+    margin: 0.7rem 0.7rem;
+    font-size: 1em;
+}
+
+/*logos-redes-sociales*/
+.grid-logos{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+    padding: 2px;
+    
+}
+.logo{
+    text-align: center;
+    line-height: 80px;
+}
+
+/*copyright*/
+h6{
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+    margin: 0.7rem 0.7rem;
+    font-size: 1em;
+    background-color: black;
+}
+
+
+
+/*Segunda-página-contacto*/
+#contact{
+    margin: 0px;
+    padding: 17px;
+    line-height: 20px;
+    margin: 0.7rem 0.7rem;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+
+}
+
+
+/*from*/
+form{
+    background-color: beige;
+    border: solid black;
+    border-radius: 10px;
+    margin: 10rem 0rem;
+}
+form label{
+    margin: 8px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+}
+#iname{
+    margin: 3px;
+}
+#insurname{
+    margin: 3px;
+}
+#iemail{
+    margin: 4px;
+}
+iframe{
+    margin: 20px;
+}
+
+
+/*iniciar-sesión*/
+.col-md-6{
+    margin: 10%;
+}
+
+.col-12{
+    width: auto;
+    margin: 10%;
+}
+
+.row g-3{
+    margin: 10%;
+}
+
+.col-md-4{
+    margin: 10%;
+}
+
+.col-md-2{
+    margin: 10%;
+}
+
+.enlase{
+    background-color: beige;
+    background-color: beige;
+    border: solid black;
+    border-radius: 10px;
+    margin: 20%
+}
