@@ -68,20 +68,6 @@ img {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*grid-layout*/
 .grid-layout{
     display: grid;
@@ -91,8 +77,6 @@ img {
     text-align: center;
     line-height: 150px;
     width: 100%;
-    
-
 }
 
 
@@ -109,29 +93,22 @@ p{
 
 /*flex-container*/
 .flex-container{
-    background-color: wheat;
     display: flex;
     padding: 30px;
     flex-direction: row;
     margin: 0% auto;
-    width: 100%;
+    width: auto;
     flex-wrap: wrap;
     flex-flow: row wrap;
     justify-content: space-around;
-    border: solid black;
-
-}
-
-
-/*video*/
-video{
     border: solid black;
     background-color: wheat;
+
 }
 
 
-/*fotos-pelea*/
-.flex-fight{
+/*video-segundo-round-y-ganador*/
+iframe{
     display: flex;
     padding: 0px;
     flex-direction: row;
@@ -140,18 +117,7 @@ video{
     flex-wrap: wrap;
     flex-flow: row wrap;
     justify-content: space-around;
-}
-
-/*video-ganador*/
-.flex-winner{
-    display: flex;
-    padding: 0px;
-    flex-direction: row;
-    margin: 0% auto;
-    width: 95%;
-    flex-wrap: wrap;
-    flex-flow: row wrap;
-    justify-content: space-around;
+    border: solid black;
 }
 
 
