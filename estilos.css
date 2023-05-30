@@ -39,12 +39,15 @@ h1 {
     background-color: black;
 }
 
+/*menu*/
 nav{
     margin: 0px;
     background-color: black;
     font-size: x-large;
 }
 
+
+/*menú-hamburguesa*/
 .navbar-toogler{
     width: auto;
     height: auto;
@@ -53,7 +56,6 @@ nav{
     filter: invert(1);
     cursor: pointer;
 }
-
 nav ul li{
     
     padding: 0%;
@@ -107,7 +109,7 @@ p{
 }
 
 
-/*video-segundo-round-y-ganador*/
+/*video-segundo-round-y-ganador-flex*/
 iframe{
     display: flex;
     padding: 0px;
@@ -291,6 +293,7 @@ iframe{
 .col-md-2{
     margin: 10%;
 }
+
 
 .enlase{
     background-color: beige;
